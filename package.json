@@ -1,9 +1,9 @@
 {
   "name": "ajs-use",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/bas27/ajs-use/issues"
   },
-  "homepage": "https://github.com/bas27/ajs-use#readme"
+  "homepage": "https://github.com/bas27/ajs-use#readme",
+  "description": "",
+  "dependencies": {
+    "@bas27/ajs": "^1.0.1",
+    "electron-to-chromium": "^1.4.247"
+  }
 }
